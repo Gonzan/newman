@@ -1,0 +1,23 @@
+  body{
+  background-color: lightblue;
+  text-align: justify;
+  color: black;
+}
+  head{
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+div{
+      float: left;
+
+}
+p{
+  font-size: 25px;
+  font-style: normal;
+  font-family: serif;
+}
+h1{
+  font-size: 40px;
+}

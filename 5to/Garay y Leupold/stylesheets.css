@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body{
+  background-color:  rgb(97, 45, 19);
+  font-style: oblique;
+}
+
+h1{
+  background-color:#D7CCC8;
+  font-family: Righteous, cursive;
+  text-align: center;
+  text-shadow: 12px;
+}
+
+h2{
+  font-family:'Permanent Marker', cursive;
+  text-align: center;
+}
+
+h3{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+h4{
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  font-weight: lighter;
+}
+ul{
+  font-family: Righteous,cursive;
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 21px;
+  }
+
+a{
+color: white;
+text-decoration: none;
+font-size: 21px;
+
+}
+
+li{
+  list-style: none;
+  color: white
+}
+
+
+h5{
+  font-family: 'Ubuntu', sans-serif;
+  color: white
+
+}
+.izq{
+  float: left;
+  width: 25%;
+}
+.der{
+  float: left;
+  width: 75%;
+}
+.contenedor{
+  overflow: hidden;
+}
+.receta{
+  box-sizing: border-box;
+  padding: 10px;
+  transition: 0.5s;
+  background-color: rgba(140, 140, 140, 0.3);
+  border-radius: 10px;
+  width: 31%;
+  margin: 1%;
+  float: left;
+  height: 432px;
+}
+.receta img{
+width: 100%;
+
+}
+.receta:hover{
+  transform: scale(0.9);
+}
+.footer{
+  background-color: rgb(209, 131, 40);
+  height: 80px;
+  font-family: 'Slabo 27px', serif;
+  color: rgb(18, 8, 5);
+  font-size: 35px;
+}
+
+.footer img{
+  height: 100%;
+  float:right;
+  width: 40%;
+  position: relative;
+    top: -42px;
+}
+/* .recetas{
+  float: right;
+} */
+.fotoca img{
+width: 48%;
+height:500px;
+float: left;
+margin: 1%;
+
+}
+
+.corte1{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  width: 22%;
+  float:left;
+  margin: 1%;
+}
+
+.cortefoto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.acompañar{
+  width: 30%;
+  margin:1%;
+  float:left;
+}
+.acompañar img {
+  width: 100%;
+}
+.primerasdos{
+  float: left;
+}

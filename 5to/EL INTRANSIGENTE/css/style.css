@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+* {
+    box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+
+background-color:rgb(59, 142, 228);
+
+}
+
+h1{
+/* text-align: center; */
+font-style: italic;
+text-decoration: underline;
+font-size: 68px;
+width: 50%;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+h3{
+  text-decoration: underline;
+  font-size: 18px;
+  text-align: center;
+}
+h4{
+font-style: italic;
+text-align: center;
+color: white;
+font-size: 27px;
+}
+h5{
+margin: 0;
+color: white;
+text-align: left;
+font-size: 27px;
+}
+h6{
+color: white;
+text-align: center;
+font-size: 14px;
+font-family: cursive;
+
+}
+p{
+color: black;
+text-align: justify;
+font-size: 14px;
+line-height: 23px;
+}
+ul,ol{
+color: darkblue;
+}
+.escudos img{
+  width: 30px;
+}
+.escudos{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+.registrar{
+  /* display: flex; */
+  align-items: center;
+}
+.noticias{
+  width: 40%;
+  background-color: rgb(135, 224, 240)
+}
+.row{
+  overflow: hidden;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+  float: left;
+}
+.titulos{
+float: right;
+width: 50%;
+display: inline;
+
+}
+.clear{
+  clear: both;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.prode{
+background-color: rgba(164, 176, 204, 0.5);
+width: 50%;
+border-radius: 20px;
+padding: 20px;
+display: block;
+text-align: center;
+}
+.prode{
+
+}
+
+html{
+  background-color: #000000;
+}
+
+.ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th{
+	background-color: black;
+	color: #ffe221;
+}
+
+.headin{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	margin: 30px;
+	display: block;
+}
+
+.wpos{
+	text-align: center;
+}
+
+.wpos td{
+	color: #77ff21;
+}
+
+.pos{
+	text-align: center;
+}
+
+.pos td{
+	color: #ff7b21;
+}
+
+table .col{
+	border-bottom: 1px solid #1a2a94;
+}
+
+.wpos:hover{
+	background-color: #77ff21;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
+
+.pos:hover{
+	background-color: #ff7b21;
+}
+
+.pos:hover td{
+	color: #000000;
+}
+.table{
+font-family: 'Titillium Web', sans-serif;
+}
+.footer{
+  background-color: rgb(2, 62, 84);
+  font-family: monospace;
+}
+.footer p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.logos{
+  bottom: 0;
+  right: 0;
+  text-align: right;
+}
+.logos img{
+  width: 40px;
+}
+.footer a{
+  color: white;
+}
+.fecha1{
+  background-color: rgba(164, 176, 204, 0.5);
+  width:calc(33.33% - 20px);
+  border-radius: 20px;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  float: left;
+  margin: 10px;
+}
+.fixture{
+  overflow: hidden;
+}
+.contact_info{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 30%;
+    font-family: monospace;
+}
+.facebook{
+  margin-top: 20px;
+}
+.a{
+
+margin-bottom: 20px;
+}
+.votacion{
+  margin: 10px;
+  border-radius: 50px;
+}
+.todo{
+overflow: hidden;
+}
+.vote{
+  width: 50%;
+  float: left;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+.vote form{
+
+}
+.a{
+  text-align: center;
+}

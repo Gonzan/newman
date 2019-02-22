@@ -1,0 +1,161 @@
+   body{
+  text-align: justify;
+  color: white;
+  background-color: lightblue;
+  background-image: url(https://trhumanproducciones.files.wordpress.com/2013/06/fondo-negro-patron-de-luz-abstrato_fondos-de-pantalla-abstratos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  head{
+  color: black;
+  text-decoration: none;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+.mundiales{
+      float: left;
+      border-color: white;
+      background-image: url('https://st.depositphotos.com/1808134/4344/i/950/depositphotos_43441987-stock-photo-soccer-wallpaper.jpg');
+      background-size: cover;
+      color: white;
+      height: 90px;
+      width: 9.1%;
+      text-align: right;
+      text-decoration: none;
+      transition: 0.8s all;
+      border-radius: 30px;
+      border: 1px solid white;
+      margin: 40px 2%;
+      box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+}
+.mundiales a{
+  color: black;
+  text-align: justify;
+  padding: 30px;
+  display: block;
+  font-size: 20px
+}
+
+.mundiales:hover{
+  transform: scale(1.3) rotate(30deg);
+  /* transform: rotate(30deg); */
+
+}
+.mundial{
+  background-image: url(https://trhumanproducciones.files.wordpress.com/2013/06/fondo-negro-patron-de-luz-abstrato_fondos-de-pantalla-abstratos.jpg) ;
+  width: 100%;
+
+  overflow: hidden;
+}
+p{
+  font-size: 25px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+    border-bottom: 3px solid red;
+    background-color: none;
+    font-family: fantasy;
+}
+.VOLVER{
+  color: white;
+  text-align: justify;
+  position: fixed;
+  width: 5%;
+  font-size: 25px;
+background-color: black;
+
+}
+.audio{
+  float: right;
+}
+.text{
+  font-size: 40px;
+  font-style: oblique;
+}
+#borderimg {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url("../img/borderimg.png") 30 round;
+  text-align: center; }
+  .banner{
+    float: left;
+    margin: 40px 2%;
+
+  }
+  .bannercontacto{
+    float: right;
+    margin: 40px 2%;
+
+  }
+  .footer{
+    background-color: black;
+  }
+  .button {
+    background-image: url(https://midflokkurinn.is/wp-content/uploads/2017/11/250ig.png);
+    border: none;
+    color: black;
+    padding: 13px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-size: contain;
+    float: left;
+    }
+    .button2 {
+      background-image: url(https://cdn2.downdetector.com/static/uploads/c/300/5d4ec/twitter-logo_16.png);
+      border: none;
+      color: black;
+      padding: 13px 85px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 50px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-size: contain;
+      float: left;
+      }
+      .button3 {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEU7V53///8yUZogRZXn6vKKl785VZxAW6Dh5O5yg7QmSZbR1uU2U5skR5aps9BNZqUrTJiTn8TL0OJlea6+xtvw8vdccqt7i7na3upidq2apsj09foVP5JqfLC6wtmgq8sAMY1MZKWyu9WDkrx/G0qPAAAD+UlEQVR4nO3d4XKiMBSG4RAw2hgwoFZbt+1W7/8eV7ROd6ezNEiTc07me2c6/VXKMwJRAqiKj7p2PVe5NF+33Q2mrr8aZ7Uz1Cv2YxmnrWv+ElYrS71OEbKr6ibcW0e9NlFydn8VVnU+m+e/mbq6CFd5voJ9btULmxz3wVu2OQvzfQX7XKG6mnololZ3qtXUKxE13ap15lvpi5rnOlRcM/m8FUUIIYQQQgghhBBC6N6c9t7Wn5XnH2utP6e1NrLPERrta/c0azbLRXU49LOAh8N2W1WL/bLbvB7f2tnu6d34WuismfP1+2xTFd+3XSh5ROPLxyZE9zGFLS3jfRvOkyc03hzH8MQJtW9G+mQJTXk6jAZKEmq3HO+TJLQv9/gECcvn+4BihOXYQ6g0Ybm5FyhEOAEoQ1iPHwVlCf1sAlCC0D1OAQoQGrvNXGjvHieECCduowKE5SJzod5NBLIX1qM+zwsU6tNUIHfh5L2Qu9BMPZCyF/rX3IV2OpC3cPpQwV3oJ3wslCGc+J6bv7C/YSdvoR75yXe72C+/tOc89zRiNzxsTivdT45+jTFQ2dA3NItd7SXO+BodCGxLobctmcADzdpTr+m96Ycg4INYoNJtCPAo+NbBsNlQobvgpaDB4lXyDby2+x5YvEi+N9KGTPlqeaPgZ3XAgL8QfJwJE24k74aqDDiR2MgdDFWY8FnyYBEklH0jfYhwBiHrIISQfxBCyD8IIeQfhBDyD0II+QchhPzLQ2j+X6BwYAmXpVA3H8iGCM3QEvpojS5slndKFe1p/8B57Cl12QuPtBMbCYTEp/0TCHfZC4mfRJ5ASDzNH194IJ4Fjy+knuePLyQeDhMIqef54wupZ8HjC6kvmYovfCf++BRf6HMXbqkvCosu3Gcv3FBfFBZdSD0cxheSn4qLLnyivoI4upD821ViCw/Uu2F0YUU9WEQXLsmvkY4tJD6VmEBIf410bOGOerCILnykHiyiC6l90YX0w2FsIfWpxPhC6lOJqv9evmoxUABi6O+rN/LB4kysB/odMMt9+jWwAAbA4fK4FmMoCCHkH4QQ8g9CCPkHIYT8gxBC/kEIIf8ghJB/EELIPwgh5B+EEPIPQgj5ByGE/IMQQv5BCCH/IISQfxBCyD8IIeQfhBDyD0II+QchhPyDEEL+QQgh/yCEkH8QQsi/hEKip56lEpq5WtM8jCiV0K0V0cN4Uwl1qzqaJ9mkEtadInp0e7KttFBFQ/KwnkRC25yFNN8wkEboVkUvrCzBgJFEaOrqIiz2dfpXMYXQ2X1xFRbVKvm+mEBoV5f/oa4La5zVLuXGGldonLauuS5F3RbXtev5TxK+Ka5wvm6721L+AICHSyu/zc/VAAAAAElFTkSuQmCC);
+        border: none;
+        color: black;
+        padding: 13px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 50px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-size: contain;
+        float: left;
+        }
+
+    .importante{
+       color: red;
+
+    }
+    .nacionalidad{
+      width: 5%;
+    }
+    .tabla1{
+      float: left;
+      width: 50%;
+      text-align: center;
+    }
+    .tabla2{
+      float: right;
+      width: 50%;
+      text-align: center;
+    }
+    .copa{
+      width: 20%;
+      float:right;
+
+    }

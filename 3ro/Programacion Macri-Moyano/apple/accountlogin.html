@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login - Apple</title>
+    <meta property="og:title" content="Apple">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logosmall.jpg">
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+    body {
+      height: 100vh;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="iPhone.html">iPhone</a>
+      <a href="iPad.html">iPad</a>
+      <a href="mac.html">Mac</a>
+      <a href="">Watch</a>
+      <a href="">TV</a>
+      <a href="">Music</a>
+      <a href="contacto.html">Contact</a>
+      <a href="accountlogin.html" class="active logintxt">Login</a>
+    </div>
+    <div class="floatrightdiv">
+     <h1 class="main-h1-float">Login to your Apple account</h1>
+     <a class="floata" href="">Trouble logging in?</a>
+   </div>
+    <form action="index.html" method="post">
+      <p>Mail:</p><input type="email" required oninvalid="this.setCustomValidity('Ingresa un e-mail válido')"
+ oninput="setCustomValidity('')">
+      <br/>
+      <p>Password:</p><input type="password" required>
+      <br/>
+      <br/>
+      <input type="submit" value="Login" class="loginbutton">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <img src="img/logo.png" width="400px" alt="Logo"><br>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+     <title>chiLED</title>
+     <div class="mundial78">
+       <a href="mundial78.html">Mundial 78'_</a></div>
+
+        <div class="mundiales"> <a href="mundial82.html">Mundial 82'_</a></div>
+
+        <div class="mundiales"><a href="mundial86.html">Mundial 86'_</a></div>
+
+        <div class="mundiales"><a href="mundial90.html">Mundial 90'_</a></div>
+
+        <div class="mundiales"><a href="mundial94.html">Mundial 94'_</a></div>
+
+        <div class="mundiales"><a href="mundial98.html">Mundial 98'_</a></div>
+
+        <div class="mundiales"><a href="mundial02.html">Mundial 02'_</a></div>
+
+        <div class="mundiales"><a href="mundial06.html">Mundial 06'_</a></div>
+
+        <div class="mundiales"><a href="mundial10.html">Mundial 10'_</a></div>
+
+        <div class="mundiales"><a href="mundial14.html">Mundial 14'_</a></div>
+
+        <div class="mundiales"><a href="mundial18.html">Mundial 18'_</a></div>
+
+        <div class="mundiales"><a href="goleadores.html">Goleadores_</a></div>
+
+        <div class="mundiales"><a href="records.html">Records en los mundiales_</a></div>
+
+        <div class="mundiales"><a href="contacto.html">Contacto</a></div>
+
+
+
+         <h1>La Historia de los mundiales</h1>
+
+
+
+   <div class="w3-content w3-display-container">
+     <img class="mySlides" src="img/messigol.jpeg" width="1345px" height="700px"alt="Messi">
+  <img class="mySlides" src="img/copa.jpg" width="1345px" height="700px" alt="Copa">
+  <img class="mySlides" src="img/campeonesmundiales.jpg" width="1345px" height="700px" alt="Maradona">
+
+
+ <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+ <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+ showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+ var i;
+ var x = document.getElementsByClassName("mySlides");
+ if (n > x.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = x.length}
+ for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+ }
+ x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+
+
+
+  </head>
+  <body>
+    <br><br>
+      <p>
+        En este sitio web vamos a informarles las particularidades de cada copa del mundo, empezando de Argentina 1978. La idea de este sitio web es demostrarle a la gente que cada mundial tiene su historia interna y su pasion y enseñarles lo impredescibles que son.
+         Este evento deportivo se realiza cada cuatro años desde 1930, con la excepción de los años de 1942 y 1946, en los que se suspendió debido a la Segunda Guerra Mundial. Cuenta con dos etapas principales: un proceso clasificatorio en el que participan en la actualidad cerca de 200 selecciones nacionales y una fase final realizada cada cuatro años en una sede definida con anticipación en la que participan 32 equipos durante un periodo cercano a un mes (aumentando a 48 equipos a partir de 2026). Es uno de los sucesos más influyentes que existen en la actualidad. Para muchos países la realización del torneo en su patria o incluso la participación del equipo nacional es un hecho histórico de gran relevancia. Por ejemplo, la victoria alemana en la Copa Mundial de Fútbol de 1954 es considerado como uno de los momentos claves para la recuperación de dicho país tras la derrota en la Segunda Guerra Mundial. El torneo también ha sido utilizado con motivos propagandísticos, tanto por el fascismo en Italia 1934 como por la dictadura militar argentina en 1978. Una parte de su impacto cultural, lo da también las tertulias existentes entre los hinchas del fútbol, antes, durante y después de cada partido, que son parte en oficinas, restaurantes y hasta en el transporte público, organizando asados, almuerzos y hasta reuniones familiares o de amigos en las casas, para esperar los partidos, de acuerdo al huso horario del país en que se efectúa la transmisión televisiva, como así también del país que la organiza.
+      </p>
+  </body>
+</html>

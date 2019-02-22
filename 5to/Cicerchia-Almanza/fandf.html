@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Flora and Fauna</title>
+  </head>
+  <body>
+    <h1> <a href="index.html">Pilanesberg
+      National Park</a> </h1>
+
+    <div class="nav">
+      <h2> <a href="index.html">Home</a> </h2>
+      <h2> <a href="fandf.html">Flora and Fauna</a> </h2>
+      <h2> <a href="safaris.html">Safaris</a> </h2>
+      <h2> <a href="activities.html">Activities</a> </h2>
+      <h2> <a href="info.html">Park Info</a> </h2>
+      <h2> <a href="Formulario.html"> Contact Us </a> </h2>
+    </div>
+      <div class="main_img_align">
+
+      <img src="images/zebra.jpg" alt="" width="20%" align ="center">
+    </div>
+
+<div class="hi">
+    <h1 style="text-align: center;">Discover Pilanesberg's Flora and Fauna</h1>
+  </div>
+
+      <p>The array of fauna and flora in the Pilanesberg is caused by the mixture of two landscapes, the Kalahari and the Lowveld. The Kalahari is a large and sandy savannah, measuring 900,000km². In the previous years, wild animals such as the elephant and giraffe could be seen. It has since become a primarily grazing area, but leopard and cheetah are still being seen around the area. The dry river beds supply pools of water during the rainy season. Lowveld is a term which refers to wide open spaces within South Africa. Lowveld areas generally have higher temperatures, and are less propagated.</p>
+
+
+
+<h3>The Big Five</h3>
+<p>The Big Five are one of Pilanesberg’s major draw cards. The quintet of big game is a must-see for serious safari goers and Pilanesberg National Park offers great opportunities to tick lion, leopard, elephant, buffalo and rhinoceros off your list. The term “Big Five” originated in the times of big game hunting, when these species were considered the most dangerous and prestigious to hunt. Today tourists are still eager to track the animals down, but only shoot them with cameras.</p>
+<ul>
+  <li>Buffalo</li>
+  <li>Elephant</li>
+  <li>Leopard</li>
+  <li>Lion</li>
+  <li>Rhinoceros</li>
+</ul>
+
+<div class="w3-content w3-section fix">
+  <img class="mySlides" src="images/bufalo.jpg" >
+  <img class="mySlides" src="images/elefantes.jpg" >
+  <img class="mySlides" src="images/leopardo.jpg" >
+  <img class="mySlides" src="images/leon.jpg" >
+  <img class="mySlides" src="images/rino.jpg" >
+</div>
+
+<h3>Bird Life</h3>
+<p>Bird watching in Pilanesberg is tremendous, as over 300 species have been recorded in the area. There is an extensive diversity of bird species, which is sure to make every bird fanatic’s dreams come true. Some of these birds are migrants, while others live in the area permanently. These birds feed on everything from live prey, seeds, fruit to tiny water organisms. In the eastern section of the Walking Area at Manyane Complex, visitors can enjoy a self-guided trail. This trail is excellent for gaining some environmental education, whilst enjoying bird watching on foot. Another exciting option is the walk-in aviary that over 80 species of indigenous birds call home.</p>
+<h3>Plant Life</h3>
+<p> In the transition zone of the semi-arid Kalahari Desert and the Lowveld, Pilanesberg offers a unique mix of plant life. Due to the fact that the Kalahari is not a true desert, a bigger range of plants are found and supported in the region. Flora that is connate to the area includes the acacia tree, and many other herbs and grasses. The Kiwano fruit is an oval-shaped melon, characterized by horn-like spikes. When the fruit is ripe, the skin is yellow/orange in colour, with a lime-green flesh similar in texture to the cucumber. The Kiwano fruit is prevalent in the region. It is perhaps better known by other names such as African horned cucumber, jelly melon or the English tomato.</p>
+
+<div class="hi">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WmVLcj-XKnM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="footer">
+  <br>
+<ul class="lol">
+<li><a href="https://instagram.com/pilanesbergnpk?utm_source=ig_profile_share&igshid=1qq91pm8hcguu"> <img class="ilol" src="images/insta1.jpg" alt="5%" ></a> Follow us on Instagram!</li>
+<li><a href="https://facebook.com/pilanesbergnationalpark"> <img class="ilol" src="images/face.png" alt="5%" ></a> Follow us on Facebook! </li>
+<li><a href="https://twitter.com/Pilanesbergnationalpark"> <img class="ilol" src="images/twitter.jpg" alt="5%" ></a> Follow us on Twitter!</li>
+<li><a href="https://www.tripadvisor.com.ar/Tourism-g312650-Pilanesberg_National_Park_North_West_Province-Vacations.html"> <img class="ilol" src="images/trip.gif" alt="5%" ></a> Reserve your trip on TripAdvisor! </li>
+</ul>
+<br>
+</div>
+
+  </body>
+</html>

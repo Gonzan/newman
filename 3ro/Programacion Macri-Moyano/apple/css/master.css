@@ -1,0 +1,335 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    color: #979899;
+}
+.topnav a.active {
+    color: #666666;
+}
+.main-h1 {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 500%;
+user-select: none;
+}
+.iphoneximg {
+align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+float: right;
+}
+body {
+margin: 0px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main-h2 {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 300%;
+}
+.Buy {
+background-color: #1E90FF;
+padding: none;
+border-color: Black;
+font-style: 'Open Sans', sans-serif;
+font-size: 50%;
+border-radius: 16px;
+height: 30%;
+cursor: pointer;
+}
+.Buy:hover {
+background-color: #00BFFF;
+}
+.WWDC {
+float: right;
+}
+iframe {
+border: none;
+width: 47%;
+height: 400px;
+padding: 1%;
+}
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+.applehqimg {
+width: 90%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+.div-normal {
+height: auto;
+width: auto;
+background-color: #e8e8e8;
+}
+.searchicon {
+height: auto;
+}
+.decs {
+background-color: black;
+height: auto;
+padding: none;
+color: white;
+font-family: 'Open Sans', sans-serif;
+margin: none;
+}
+.iphonexdec {
+line-height: 3500%;
+}
+
+.dropbtn {
+    background-color: #333333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #979899;
+    min-width: 160px;
+    z-index: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #f9f9f9;
+}
+p {
+ font-family: 'Open Sans', sans-serif;
+}
+input {
+  font-family: 'Open Sans', sans-serif;
+}
+.loginbutton {
+}
+.main-h1-float {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 300%;
+user-select: none;
+float: right;
+padding-right: 25%;
+}
+.floatrightdiv {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+}
+.floata {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 29%;
+  text-decoration: none;
+}
+.topnav .logintxt {
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+}
+.main-h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.iphonexgif {
+  margin: auto;
+  display: block;
+}
+.videoinfox {
+  display: block;
+  margin: 0 auto;
+}
+.ipadfull {
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+  width: 50%;
+}
+.ipaddec {
+  line-height: 3900%;
+}
+.iphonexvideo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logindiv {
+  line-height: 5000%
+}
+.divfright {
+  float: right;
+}
+.phoneimg {
+ height: 400px;
+}
+.phonediv {
+  width: 660px;
+}
+#A {
+  float: left;
+}
+#B {
+  float: right;
+}
+.container {
+  overflow: hidden;
+}
+.phonecenter {
+  text-align: center;
+}
+.main-h2-left {
+text-align: left;
+font-family: 'Open Sans', sans-serif;
+font-size: 300%;
+}
+.contact {
+  font-size: 200%;
+  font-family: 'Open Sans', sans-serif;
+}
+.support-form {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.form-ol li{
+  /* font-size: 50px; */
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+.formdiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#CenterDiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gradient {
+  background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(0,0,0,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#000000',GradientType=0 ); /* ie6-9 */
+height: 200px;
+}
+.gradp {
+  display: none;
+}
+.gradienti {
+  Color:
+#FFFFFF
+ Location:
+100
+%
+CSS - rgba CSS - hex Android Canvas SVG PHP
+background: -moz-linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(255,255,255,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(270deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* ie10+ */
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#FFFFFF',GradientType=0 ); /* ie6-9 */
+height: 200px;
+}
+#move {
+ position: relative;
+ top: -5px;
+}
+.img-float-right {
+  float: right;
+}
+#margintop {
+  margin-top: 150px;
+}
+.BuyIphone {
+background-color: #1E90FF;
+padding: none;
+border-color: Black;
+font-style: 'Open Sans', sans-serif;
+font-size: 200%;
+border-radius: 16px;
+height: 80%;
+cursor: pointer;
+}
+.infocontainer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.blackbody {
+  background-color: #131218;
+}
+.main-h1-white {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 500%;
+user-select: none;
+color: white;
+}
+.main-h2-white {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 300%;
+color: white;
+}
+.macblack {
+  background-color: #18171D;
+}
+.main-p {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-size: 100%;
+color: white;
+padding: 30px;
+}
+#left {
+  text-align: left;
+}
